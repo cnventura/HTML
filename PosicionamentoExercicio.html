@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste2</title>
+    <style>
+        body{
+            background-color: black;
+        }  
+        .box_position {
+            /* classes */
+            color: #000;
+            font-family: sans-serif;
+            font-size: 4pt;        }
+ 
+ 
+ 
+        #relative {
+            position: relative;
+            background-color: white ;
+            width: 200px;
+            height: 180px;
+            left: 350px; /*  posiciona inversa  right e left*/
+            top: 130px;  /*  posiciona inversa  top desce e button sobe*/
+        }
+ 
+        #absolute_01 {
+            position: relative;
+            background-color:#e100ff80 ;
+            width: 100px;
+            height: 100px;
+            left: 400px;
+            bottom: 40px;
+        }
+ 
+        #absolute_02 {
+            position: relative;
+            background-color: #d7830e80;
+            width: 50px;
+            height: 50px;
+            left: 425px;
+            bottom: 133px;
+           
+        }
+        #absolute_03 {
+            position: relative;
+            background-color: #e8190ae8;
+            width: 30px;
+            height: 30px;
+            left: 435px;
+            bottom: 190px;
+        }
+    </style>
+ 
+</head>
+ 
+<body>
+ 
+ 
+    <div class="box_position" id="relative">  </div>
+    <br>
+    <div class="box_position" id="absolute_01"> position:1 </div>
+    <br>
+    <div class="box_position" id="absolute_02"> position:2 </div>
+    <br>
+    <div class="box_position" id="absolute_03"> position:3 </div>
+ 
+ 
+ 
+</body>
+ 
+</html>

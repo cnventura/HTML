@@ -1,0 +1,26 @@
+body{
+    font-family: verdana, arial, sans-serif;
+}
+
+h3{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+table{
+    background-color: rgb(5, 5, 100);
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+i{
+    color:blueviolet;
+}
+
+b{
+    color: brown;
+}
