@@ -355,4 +355,148 @@ iframe{
     margin: 0 auto;
     cursor: pointer;
 }
+@media screen and (min-width:700px){
+    #topo{
+        position:fixed;
+        width:100%;
+        top:0;
+        z-index:1000;
+        height:80px;
+    }
+    #topo div{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    h1{
+        margin-left:3%;
+        margin-top:5px;
+        width:150px;
+    }
+    h1 img{
+        margin-top:18px;
+    }
+    nav{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+    #iconMenu{
+        display: none;
+    }
+    nav a {
+        padding:10px;
+    }
+    .conteudo{
+        margin-top:85px;
+    }
+    .rodape-conteudo{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #logo-rodape, .menu-rodape, .redes{
+        margin:0 auto;
+        
+    }
+    .assinatura p{
+        padding-top:1%;
+    }
+    .card-conteudo{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .acessorios{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .produtos{ /*altera dentro de cada card de acessorios*/
+        margin: 10px 1%;
+        height:auto;
+    }
+    .acesse{
+        margin:0 auto;
+    }
+    #card-pacote{ /*pag pacotes. fica um do lado do ouro:trilha bike, família e trekking*/
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .card-pacote-info:{
+        margin:0.4%; /*distancia entre figuras*/
+        overflow:hidden; /*junta as figuras para dentro?!*/
+    }
+    .card-pacote-info img{
+        height:200px;
+        object-fit:cover;
+        width:100%;
+    }
+    .acessorios{
+        margin: 0 15%;
+    }
+}
+@media screen and(min-width:930px){ /*novo viewport agora para tela de 930 px - novos ajustes*/
+    .card-conteudo figure img{ /*as imagens estão paralisando com altura e largura definidas*/
+        height:150px;
+        width:210px;
+    }
+    .text-destaque h2{
+        margin-top:-4px; /*mexendo nas cxs montanha, terrestre e aquatico*/
+    }
+    .text-destaque p{ /*melhorando a altura da escritas de h e p : aquatico e explore rios e cac*/
+        margin-top: 0;
+    }
+    #frase{ /*frase:silencio, a mae natureza*/
+        padding-top: 24%;
+        font-size:1.3em;
+    }
+    /*pagina acessorios*/
+
+    .produtos{/*mexe com altura dos 6 cards*/
+        height:250px;
+    }
+    .acesse{
+        margin: 20px auto;
+    }
+    #conteudo-contato{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    #conteudo-info article{
+        margin:15px 5px;
+        padding:2%;
+    }
+    .localizacao iframe{
+        height:500px;
+    }
+    #localizacao-end{
+        height: 745px;
+    }
+
+}
+@media screen and (min-width:1200px){
+    nav{
+        width:980px;
+        justify-content: end;
+        margin-right: 85px;
+    }
+    .conteudo{
+        width:980px;
+    }
+    #localizacao-end{
+        height:770px;
+    }
+    h1{
+        margin-left:100px;
+    }
+}
+
 
