@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body><h1>Alertas</h1>
+
+    <script>
+
+        var nome =  window.prompt('Nome:');
+        //var idade = window.prompt('Idade:');
+        var idade = Number(prompt('Qual é a sua idade?'))
+        var nomefamiliar = window.prompt('Qual é o nome do seu familiar?');
+        var idadefamiliar = Number(prompt('Qual a idade do seu familiar mais próximo?'))
+        //var idadefamiliar = window.prompt('Qual é a idade do seu familiar?');
+        //var data = new Date();
+        //var dataInscricao = data.toLocaleDateString();
+
+       
+        
+        document.write("<p> Meu nome é: "+nome+ "<br> Minha idade é:"+idade+"<br> O nome da minha tia é:" +nomefamiliar+ "<br> A idade dela é:" +idadefamiliar+"<br>")
+           // A data da inscrição é:"+dataInscricao);
+
+
+//document.write(" A soma das idades é: " + resultado + "<br>")
+//var num1 = Number.parseFloat(window.prompt("Digite um número:"))
+//var num2 = Number.parseFloat(window.prompt("Digite outro número:"))
+//var resultado = num1 + num2   
+
+
+
+var data = new Date()
+var dia = data.getDate()
+var mes = String(data.getMonth() + 1)
+var ano = data.getFullYear()
+var dataCompleta = dia + "/" + mes + "/" + ano
+document.write("Data de inscrição: " + dataCompleta)
+var idadeSomada = Number(idade + idadefamiliar) 
+document.write("<p>"+idadeSomada+"</p>")
+
+
+
+    </script>
+    
+</body>
+</html>
