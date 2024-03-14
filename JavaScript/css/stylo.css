@@ -1,0 +1,22 @@
+.btn{
+    margin:0 auto;
+    border-radius:25px;
+    color:white;
+    padding:60px;
+    /* display:wrap;
+    justify-content:center;
+    align-items:center; */
+    
+}
+#Azul{
+    background-color:blue;
+}
+#Verde{
+    background-color: green;
+}
+#Laranja{
+    background-color: orange;
+}
+p{
+    text-align:center;
+}
