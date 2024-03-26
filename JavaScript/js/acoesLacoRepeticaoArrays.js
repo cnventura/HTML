@@ -1,13 +1,15 @@
 let nome = document.getElementById('nome')
-let idade = document.getElementById('idade')
-let salario = document.getElementById('.salario')
+let email = document.getElementById('email')
+let telefone = document.getElementById('telefone')
 //let cargo = document.getElementById('cargo')
-let cargo = document.querySelector('#cargo')
-let btnsalvar = document.getElementById("btnsalvar")
+let assunto = document.querySelector('#assunto')
+let mensagem = document.querySelector('mensagem')
+let btnenviar = document.getElementById("btnEnviar")
 
-btnsalvar.addEventListener("click" , function (){
+btnEnviar.addEventListener("click" , function (){
     document.getElementById('fnome').innerHTML = nome.value
-    document.getElementById('fidade').innerHTML = idade.value
-    document.getElementById('fsalario').innerHTML = salario.value
-    document.getElementById('fcargo').innerHTML = cargo.value
+    document.getElementById('femail').innerHTML = email.value
+    document.getElementById('ftelefone').innerHTML = telefone.value
+    document.getElementById('fassunto').innerHTML = assunto.value
+    document.getElementById('fmensagem').innerHTML = mensagem.value
 });

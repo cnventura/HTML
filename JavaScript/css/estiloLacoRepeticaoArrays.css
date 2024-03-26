@@ -29,7 +29,7 @@ label, button{
 
 button{
     border: 1px solid #12633d;
-    background-color: #146c43;
+    background-color: violet;
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -41,9 +41,9 @@ button:hover{
 
 input{
     font-weight: 800;
-    width: 230px;
+    width: 500px;
     border: 1px solid #ccc;
-    padding: 7px;
+    padding: 10px;
 }
 
 h1{
@@ -54,12 +54,17 @@ h1{
 
 .ficha{
     background-color: #fff;
+    flex: wrap;
+    display:flex;
+    
 }
 
 .ficha-dados{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin:20px;
+    
 }
 
 .ficha-dados:first-child{
@@ -84,3 +89,5 @@ h1{
     padding: 10px;
     margin-right: 5px;
 }
+
+
