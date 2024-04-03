@@ -18,10 +18,45 @@ formContato.addEventListener("submit", (event) =>{
     email.push(formContato.email.value);
     telefone.push(formContato.telefone.value);
     assunto.push(formContato.assunto.value);
-    assunto.push(formContato.mensagem.value);
-    girarLista()
+    msg.push(formContato.mensagem.value);
+    gerarLista();
 })
 
 function gerarLista(){
-    
+    let auxLista = "";
+
+     for(let posicao = 0; posicao < nome.length; posicao++){
+        auxLista += `<div class= "card">
+                        <div class = "dados-label">
+                            <div>Nome completo:</div>
+                            <div>${nome[posicao]}</div>
+                        </div>
+                                                      
+                        <div class = "dados-label">
+                            <div>Nome completo:</div>
+                            <div>${email[posicao]}</div>
+                            </div>
+                          
+                        <div class = "dados-label">
+                            <div>Nome completo:</div>
+                            <div>${telefone[posicao]}</div>
+                            </div>
+                           
+                        <div class = "dados-label">
+                            <div>Nome completo:</div>
+                            <div>${assunto[posicao]}</div>
+                            </div>
+                           
+                        <div class = "dados-label">
+                            <div>Nome completo:</div>
+                            <div>${mensagem[posicao]}</div>
+                        </div>
+                    </div>`
+
+                    
+                            
+                     
+
+     }
+     divLista.innerHTML = auxLista;
 }
