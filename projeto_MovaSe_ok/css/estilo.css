@@ -47,7 +47,7 @@ h1 img{
 }
 nav{
     min-height:40px;
-    display:block;
+    display:none;
     text-transform:uppercase;
     font-weight:bold;
     overflow:hidden;
